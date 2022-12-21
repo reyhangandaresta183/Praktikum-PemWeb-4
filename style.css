@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.root {
+    background-color: rgb(218, 218, 250);
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(78, 78, 78);
+}
+
+#input {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#hasil {
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
